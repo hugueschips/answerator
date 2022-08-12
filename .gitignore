@@ -102,6 +102,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+test-reports/
 
 # Translations
 *.mo
@@ -274,3 +275,4 @@ $RECYCLE.BIN/
 *.wmv
 =======
 *.wmv
+test-reports/report.xml

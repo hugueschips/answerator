@@ -23,6 +23,9 @@ jobs:
     - name: Check formatting with black
       run: |
         pipenv run black --check .
+    - name: Run unit tests
+      run: |
+        pipenv run pytest --junitxml=test-reports/report.xml --cov=src/ tests/ --cov-report xml:test-reports/coverage.xml
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis

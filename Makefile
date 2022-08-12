@@ -11,3 +11,7 @@ prepare-dev:
 lint:
 	pipenv run black . 
 	pipenv run flake8 
+
+check:
+	pipenv run black --check .
+	pipenv run flake8

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.075" timestamp="2022-08-17T10:20:36.929944" hostname="MBP-de-Daniel.fritz.box"><testcase classname="test.test_dummy" name="test_dummy" time="0.002" /></testsuite></testsuites>

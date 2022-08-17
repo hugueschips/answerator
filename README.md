@@ -9,15 +9,20 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How do I get set up? ###
 
-* Install CMake on your device
-* Start with a fresh environment
-    make clean
-* Build virtual environment
-    make prepare-dev
-* Run main script
-    make run
-* Style and clean code before each commit
-    make lint
+* Install CMake, Python 3.10 (e.g. with `pyenv`), and `pipenv` on your device
+* Start with a fresh environment  
+    `make clean`
+* Build virtual environment  
+    `make prepare-dev`
+* Run main script  
+    `make run`
+* Style and clean code before each commit  
+    `make lint`
+* Run unit tests before each commit  
+    `make test`
+
+It is highly recommended to have a look at the makefile to see
+others commands
 
 
 ### Contribution guidelines ###

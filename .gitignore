@@ -103,6 +103,7 @@ coverage.xml
 .pytest_cache/
 cover/
 test-reports/
+test/report.xml
 
 # Translations
 *.mo

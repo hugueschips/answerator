@@ -18,6 +18,11 @@ This README would normally document whatever steps are necessary to get your app
     `make run`
 * Style and clean code before each commit  
     `make lint`
+* Run unit tests before each commit  
+    `make test`
+
+It is highly recommended to have a look at the makefile to see
+others commands
 
 
 ### Contribution guidelines ###

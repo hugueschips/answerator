@@ -277,3 +277,4 @@ $RECYCLE.BIN/
 =======
 *.wmv
 test-reports/report.xml
+test/report.xml

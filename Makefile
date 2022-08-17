@@ -17,7 +17,7 @@ check:
 	pipenv run flake8
 
 test: clean-pyc 
-	pipenv run pytest --junitxml=test/report.xml --cov=. --cov-report xml:test/coverage.xml
+	pipenv run pytest --junitxml=test/report.xml --cov=src/ --cov-report xml:test/coverage.xml
 
 run:
 	pipenv run python main.py

@@ -16,6 +16,9 @@
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+# ViM
+*.swp
+
 ### macOS ###
 # General
 .DS_Store
@@ -24,7 +27,6 @@
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
@@ -272,9 +274,9 @@ $RECYCLE.BIN/
 *.avi
 *.flv
 *.mov
-<<<<<<< HEAD
 *.wmv
-=======
-*.wmv
+
+### Project ###
+
 test-reports/report.xml
 test/report.xml
